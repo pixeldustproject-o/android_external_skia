@@ -768,6 +768,8 @@ cc_library {
                     "src/opts/SkBlitRow_opts_arm_neon.cpp",
                 ],
             },
+
+            instruction_set: "arm",
         },
 
         arm64: {
